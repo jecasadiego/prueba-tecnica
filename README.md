@@ -34,8 +34,8 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
 │   │   └── register.js
 ├── resources
 │   ├── views
-│   │   └── auth
-│   │       └── register.blade.php
+│   │   └── register.blade.php
+│   │   └── users.blade.php
 ├── routes
 │   └── web.php
 └── .env.example
@@ -167,4 +167,10 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
 
 ## Nota
 
-Este proyecto utiliza Bootstrap para el diseño y AJAX para el manejo de formularios asincrónicos. Además, se personalizó la validación de formularios para que los mensajes de error aparezcan en español.
+Este proyecto utiliza Bootstrap personalizado para el diseño y AJAX para el manejo de formularios asincrónicos. Además, se personalizó la validación de formularios para que los mensajes de error aparezcan en español.
+
+## Nota 2
+
+Como adicional, cree una vista con la ruta `http://localhost:8000/users` para que se verifique si el usuario digitado se creó exitosamente.
+
+
