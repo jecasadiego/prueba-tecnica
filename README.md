@@ -47,6 +47,7 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
    - PHP 8.2
    - Composer: Descarga aquí-> https://getcomposer.org/
    - XAMPP: Descarga aquí -> https://www.apachefriends.org/es/index.html (Asegurate de usar la versión de PHP correcta dentro de XAMPP)
+   - Laravel Versión 10
 
 2. **Clonar el Repositorio**
 
@@ -138,6 +139,8 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
 
    - Abre XAMPP y enciende el servidor MySQL y Apache.
    - Crea una base de datos nueva desde phpMyAdmin (por ejemplo, `laravel_db`).
+  
+  NOTA: Al ejecutar php artisan migrate, debería crearte la base de datos que tengas de nombre en el archivo `.env`, en la variable de entorno  `DB_DATABASE`
 
 6. **Migrar las Tablas**
 
