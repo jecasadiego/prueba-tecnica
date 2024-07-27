@@ -39,7 +39,10 @@
                     <input type="password" class="form-control" id="password_confirmation" name="password_confirmation"
                         required>
                 </div>
-                <button type="submit" class="btn-primary">Crear tu cuenta de Amazon</button>
+                <button type="submit" class="btn-primary">Crear tu cuenta de Amazon
+                    <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" id="spinner"
+                        style="display: none;"></span>
+                </button>
             </form>
             <div id="responseMessage" class="mt-3"></div>
             <div class="footer">
