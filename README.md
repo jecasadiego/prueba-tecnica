@@ -45,6 +45,7 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
 
 1. **Requisitos Previos**
    - PHP 8.2
+   - Visual Studio Code
    - Composer: Descarga aquí-> https://getcomposer.org/
    - XAMPP: Descarga aquí -> https://www.apachefriends.org/es/index.html (Asegurate de usar la versión de PHP correcta dentro de XAMPP)
    - Laravel Versión 10
@@ -55,15 +56,17 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
    git clone https://github.com/jecasadiego/prueba-tecnica.git
    cd prueba-tecnica
    ```
-   Nota: Debe tener el xampp instalado y dentro de la ruta `C:\xampp\htdocs` clonar el repositorio.
+   Nota: Debe tener el xampp instalado y dentro de la ruta `C:\xampp\htdocs` clonar el repositorio, a su vez que abriras la ruta resultante con Visual Studio Code.
 
 3. **Instalar Dependencias**
 
+    Dentro del Visual Studio, abrir una terminal y ejecutar los siguientes comandos:
+    
    ```bash
    composer install
    ```
 
-4. **Configuración del Entorno**
+5. **Configuración del Entorno**
 
    Reemplaza el archivo `.env.example` a `.env` y configura los parámetros necesarios (base de datos, correo, etc.).
 
