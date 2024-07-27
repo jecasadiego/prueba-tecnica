@@ -64,7 +64,7 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
 
 4. **Configuración del Entorno**
 
-   Copia el archivo `.env.example` a `.env` y configura los parámetros necesarios (base de datos, correo, etc.).
+   Reemplaza el archivo `.env.example` a `.env` y configura los parámetros necesarios (base de datos, correo, etc.).
 
    ```bash
    cp .env.example .env
