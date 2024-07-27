@@ -69,15 +69,22 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
 
    ```bash
    cp .env.example .env
+   ```
+
+   Asegurate de ejecutar el siguiente comando:
+   
+   ```bash
    php artisan key:generate
    ```
+
+   Esta clave se utiliza para encriptar datos sensibles, como las sesiones de usuario y otros datos encriptados por el framework.
    
    Dentro del archivo `.env` encontrarás distintos parametros, recomendamos que lo tengas así parecido:
 
     ```env
     APP_NAME=prueba-tecnica
     APP_ENV=local
-    APP_KEY=(ESTA LLAVE SE GENERA AL EJECUTAR EL COMANDO php artisan key:generate)
+    APP_KEY=
     APP_DEBUG=true
     APP_URL=http://localhost
 
@@ -136,7 +143,7 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
     VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
     ```
     
-5. **Configurar la Base de Datos**
+6. **Configurar la Base de Datos**
 
    - Abre XAMPP y enciende el servidor MySQL y Apache.
    - Crea una base de datos nueva desde phpMyAdmin (por ejemplo, `laravel_db`).
@@ -157,7 +164,9 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
 
 8. **Acceder a la Aplicación**
 
-   Abre tu navegador web y dirígete a `http://localhost:8000`.
+   Abre tu navegador web, dirígete a `http://localhost:8000` y empieza a usar la aplicación.
+
+   Nota: El modelo de usuario utiliza validaciones y seguridad adicional como lo es un hash, dentro de `App\Models\User.php` puedes modificar el tamaño del hash o modificar la configuración de validación.
 
 ## Descripción de Archivos Importantes
 
