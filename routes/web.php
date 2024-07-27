@@ -16,6 +16,6 @@ use App\Http\Controllers\RegisterController;
 */
 Route::get('/', [RegisterController::class, 'index'])->name('index');
 Route::get('/users', [RegisterController::class, 'UsersView'])->name('users');
-Route::post('/register-users', [RegisterController::class, 'register'])->name('register');
+Route::post('/register', [RegisterController::class, 'register'])->name('register');
 
 
