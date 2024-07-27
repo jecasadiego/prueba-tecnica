@@ -1,7 +1,7 @@
 
-# Proyecto Laravel 10 - Registro de Usuarios con AJAX y Spinner
+# Proyecto Laravel 10 - Registro de Usuarios con AJAX 
 
-Este proyecto consiste en una aplicación de registro de usuarios en Laravel 10, que incluye la funcionalidad de guardar datos en la base de datos utilizando AJAX, y muestra un spinner al momento de realizar el registro.
+Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentro de este README podrás encontrar todos los pasos para poder clonar el repositorio y ejecutarlo de forma correcta.
 
 ## Estructura del Proyecto
 
@@ -23,10 +23,15 @@ Este proyecto consiste en una aplicación de registro de usuarios en Laravel 10,
 │   ├── seeders
 │   └── factories
 ├── public
-│   ├── images
+│   ├── img
 │   │   └── Amazon_PNG6.png
+│   │   └── amazon_logo.png
+│   │   └── signo.png
 │   ├── css
-│   └── js
+│   │   └── register.css
+│   │   └── users.js
+│   ├── js
+│   │   └── register.js
 ├── resources
 │   ├── views
 │   │   └── auth
@@ -40,22 +45,20 @@ Este proyecto consiste en una aplicación de registro de usuarios en Laravel 10,
 
 1. **Requisitos Previos**
    - PHP 8.2
-   - Composer
-   - XAMPP
+   - Composer: Descarga aquí-> https://getcomposer.org/
+   - XAMPP: Descarga aquí -> https://www.apachefriends.org/es/index.html (Asegurate de usar la versión de PHP correcta dentro de XAMPP)
 
 2. **Clonar el Repositorio**
 
    ```bash
-   git clone https://github.com/tu_usuario/proyecto-laravel.git
-   cd proyecto-laravel
+   git clone https://github.com/jecasadiego/prueba-tecnica.git
+   cd prueba-tecnica
    ```
 
 3. **Instalar Dependencias**
 
    ```bash
    composer install
-   npm install
-   npm run dev
    ```
 
 4. **Configuración del Entorno**
