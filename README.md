@@ -171,6 +171,6 @@ Este proyecto utiliza Bootstrap personalizado para el diseño y AJAX para el man
 
 ## Nota 2
 
-Como adicional, cree una vista con la ruta `http://localhost:8000/users` para que se verifique si el usuario digitado se creó exitosamente.
+Como adicional, creé una vista con la ruta `http://localhost:8000/users` para que se verifique si el usuario digitado se creó exitosamente.
 
 
