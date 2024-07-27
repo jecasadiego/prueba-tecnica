@@ -55,6 +55,7 @@ Proyecto Utilizado para la prueba técnica de selección de Desarrollador, dentr
    git clone https://github.com/jecasadiego/prueba-tecnica.git
    cd prueba-tecnica
    ```
+   Nota: Debe tener el xampp instalado y dentro de la ruta `C:\xampp\htdocs` clonar el repositorio.
 
 3. **Instalar Dependencias**
 
